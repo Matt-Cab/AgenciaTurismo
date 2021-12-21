@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --bg-color: rgb(176, 214, 247);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(129, 201, 197);
+}
+
+header {
+    margin-bottom: 65px;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+form {
+    background-color: rgb(29, 175, 219);
+    border-radius: 5px;
+    padding: 20px;
+    min-width: 400px;
+}
+
+form input {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+th {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.btnsAcciones form {
+    background-color: inherit;
+    padding: 5px;
+}
+
+.menu-navegacion {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.menu-navegacion > ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightblue;
+    padding-block: 10px;
+}
+
+.menu-navegacion .link-item a {
+    display: inline-block;
+    padding: 10px;
+    font-weight: bold;
+    transition: background-color .3s, color .3s;
+    border-radius: 5px;
+}
+
+.menu-navegacion .link-item a:hover {
+    color: #fff;
+    background-color: lightseagreen;
+}
+
+input[type="submit"] {
+    display: block;
+    margin-inline: auto;
+    margin-top: 25px;
+    border: 2px solid rgb(19, 110, 106);
+    padding: 10px;
+    background-color: lightseagreen;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: .8;
+    transition: opacity .3s;
+}
+
+input[type="submit"]:hover {
+    opacity: 1;
+}
+
+input[type="date"] {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inputContainer {
+    margin-block: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+label {
+    padding: 5px;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+td ul li {
+    margin-block: 3px;
+}
+
+td ul li ul li:nth-child(odd) {
+    background-color: #32908A;
+    color: #fff;
+    padding: 3px;
+}

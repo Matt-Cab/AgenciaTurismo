@@ -1,0 +1,9 @@
+label {
+    display: block;
+}
+
+input[type="text"],
+input[type="password"]{
+    width: 100%;
+    margin-block: 10px;
+}

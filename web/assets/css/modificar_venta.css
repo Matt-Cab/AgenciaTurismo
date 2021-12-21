@@ -1,0 +1,28 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputContainer {
+    margin-block: 10px;
+}
+
+.inputContainer:nth-child(1),
+.inputContainer:nth-child(2),
+.inputContainer:nth-child(3),
+.inputContainer:nth-child(4) {
+    width: 380px;
+}
+
+.paqueteOServicio {
+    flex-direction: column;
+}
+
+#campoSeleccionado {
+    margin-block: 15px;
+}
+
+.labelServicio {
+    margin-right: 10px;
+}
